@@ -68,3 +68,7 @@ st.subheader("📅 Jadwal Aplikasi Berkala (Sistem Kocor):")
 st.info(f"📅 **Fase Vegetatif (7-28 HST):** Kocor **{kg_pupuk_veg/4:.1f} kg** per minggu (Dibagi menjadi 4 kali aplikasi).")
 st.info(f"📅 **Fase Pembungaan (35-45 HST):** Kocor **{kg_pupuk_flo/2:.1f} kg** per 10 hari (Dibagi menjadi 2 kali aplikasi).")
 st.info(f"📅 **Fase Pembuahan (55-85+ HST):** Kocor **{kg_pupuk_fru/4:.1f} kg** per petikan/10 hari (Dibagi menjadi 4 kali aplikasi dasar).")
+
+# --- COPYRIGHT ---
+st.markdown("---")
+st.write("dibuat oleh @stenlymandagi")
