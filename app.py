@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(page_title="Kalkulator Pupuk Presisi V2", page_icon="🌶️", layout="centered")
 
 st.title("🌶️ Kalkulator Pemupukan Presisi Cabe (V2)")
-st.write("Versi Pembaruan: Mengakomodasi Pupuk NPK Kustom untuk Pupuk Dasar.")
+st.write("Aplikasi untuk Pembelajaran di Pelatihan Sekolah Lapang Agrobisnis Komoditas Unggulan Cabe bagi Petani Tahun 2026 - BPTP Prov. SULUT")
 
 # --- INPUT PARAMETER ---
 st.header("1. Data Lahan & Target Populasi")
@@ -100,3 +100,6 @@ else:
     st.info(f"📅 **Fase Vegetatif (7-28 HST):** Kocor **{kg_pupuk_veg/4:.1f} kg** per minggu (Total 4 kali aplikasi).")
     st.info(f"📅 **Fase Pembungaan (35-45 HST):** Kocor **{kg_pupuk_flo/2:.1f} kg** per 10 hari (Total 2 kali aplikasi).")
     st.info(f"📅 **Fase Pembuahan (55-85+ HST):** Kocor **{kg_pupuk_fru/4:.1f} kg** per siklus petikan (Total 4 kali aplikasi dasar).")
+
+# Copyright
+st.write("created by @stenlymandagi")
