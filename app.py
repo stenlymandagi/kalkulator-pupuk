@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(page_title="Kalkulator Pupuk Presisi", page_icon="🌶️", layout="centered")
 
 st.title("🌶️ Kalkulator Pemupukan Presisi Cabe")
-st.write("Didesain untuk tanah vulkanik dengan pendekatan *Precision Farming* untuk Pembelajaran Sekolah Lapang Agrobisnis Komoditas Unggulan Cabe Tahun 2026.")
+st.write("Didesain untuk tanah vulkanik (Tomohon) dengan pendekatan *Precision Farming* untuk Pembelajaran Sekolah Lapang Agrobisnis Komoditas Unggulan Cabe bagi Petani Tahun 2026.")
 
 # --- INPUT PARAMETER ---
 st.header("1. Input Data Lahan & Pupuk")
